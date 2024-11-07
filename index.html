@@ -9,13 +9,33 @@
 <body>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <div class="sidebar">
+    <img src="WitCopperLogo.png" id="BabyLogo">
+    <br>
+    <br>
+    <br>
   <a href="#home" onclick="home()"><i class="fa fa-fw fa-home"></i> Home</a>
   <a href="#shop" onclick="shop()"><i class="fa fa-fw fa-shopping-basket"></i> Shop</a>
-</div>
-<div>
+  <div class="navbar">
+    <div class="dropdown">
+      <button class="dropbtn">Filter
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a onclick="show()">Show All</a>
+        <a onclick="image()">Image Sites</a>
+        <a onclick="info()">Info Sites</a>
+        <a onclick="music()">Music Sites</a>
+        <a onclick="video()">Video Sites</a>
+        <a onclick="link()">Link Sites</a>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div>
     <img src="LogoCopper.png" id="Logo">
 </div>
-<div class="button-container">
+<div id="big-container">
+<div id="buttoncontainer1">
     <div id="voorbeeld1" hidden>
         <img src="https://nldazuu.com/wp-content/uploads/2018/12/Collage_2019-1080x675.jpg" style="width:100%">
         <h3>Photo Gallery Website</h3>
@@ -51,6 +71,51 @@
     </a>
         <h3>Price: Free!</h3>
         <h3>You can choose your 3 music covers and also the 3 sounds for your site. (Don't complain because we do it for free)</h3>
+      </div>
+      <div id="voorbeeld4" hidden>
+        <div id="notavailable1">
+          <img class="inner1" src="https://w3layouts.b-cdn.net//wp-content/uploads/2013/09/videostube.jpg" style="width:100%">
+          <img class="inner2" src="NotAvailable.png" style="width:100%">
+        </div>
+        <h3>Video Website</h3>
+        <a href="" target="_blank">
+        <p><button class="voorbeeldwebsite4" onclick="voorbeeldwebsite4()">Example Website</button></p>
+    </a>
+    <a href="">
+        <p><button class="voorbeeldfotos4" onclick="voorbeeldinformatie4()">Order Site</button></p>
+    </a>
+        <h3>Price: Free!</h3>
+        <h3>You can choose your 2 video clips for the website and also the 2 titles for it. (Don't complain because we do it for free)</h3>
+      </div>
+      <div id="voorbeeld5" hidden>
+        <div id="notavailable2">
+          <img class="inner3" src="https://thegood.com/wp-content/uploads/run-1.png" style="width:100%">
+          <img class="inner4" src="NotAvailable.png" style="width:100%">
+        </div>
+        <h3>Navigation Link Website</h3>
+        <a href="" target="_blank">
+        <p><button class="voorbeeldwebsite5" onclick="voorbeeldwebsite5()">Example Website</button></p>
+    </a>
+    <a href="">
+        <p><button class="voorbeeldfotos5" onclick="voorbeeldinformatie5()">Order Site</button></p>
+    </a>
+        <h3>Price: Free!</h3>
+        <h3>You can choose your 15 search links and also the titles for it. (Don't complain because we do it for free)</h3>
+      </div>
+      <div id="voorbeeld6" hidden>
+        <div id="notavailable3">
+          <img class="inner5" src="https://nldazuu.com/wp-content/uploads/2018/12/Collage_2019-1080x675.jpg" style="width:100%">
+          <img class="inner6" src="NotAvailable.png" style="width:100%">
+        </div>
+        <h3>Photo Gallery Website 2.0</h3>
+        <a href="" target="_blank">
+        <p><button class="voorbeeldwebsite6" onclick="voorbeeldwebsite6()">Example Website</button></p>
+    </a>
+    <a href="">
+        <p><button class="voorbeeldfotos6" onclick="voorbeeldinformatie6()">Order Site</button></p>
+    </a>
+        <h3>Price: Free!</h3>
+        <h3>You can choose 8 pictures to add into the website. (Don't complain because we do it for free)</h3>
       </div>
     <script src="index.js"></script>
 </body>
