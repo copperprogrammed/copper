@@ -348,14 +348,13 @@
   }
 
 #BabyLogo {
-  width: 150px;
+  width: 145px;
   display: flex;
   position: absolute;
   top: 1%;
   left: 3%;
   z-index: 2;
-  background-color: #333;
-  border-radius: 15px;
+  border-bottom: 5px solid white;
 }
 
 .dropdown .dropbtn {
@@ -367,6 +366,8 @@
   background-color: inherit;
   font-family: inherit; /* Important for vertical align on mobile phones */
   margin: 0; /* Important for vertical align on mobile phones */
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
 }
 
 /* Add a red background color to navbar links on hover */
@@ -458,4 +459,106 @@
   position: absolute;
   top: 0;
   left: 0;
+}
+
+#contactinformation {
+  width: 80vw;
+  height: 80vh;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  background-color: #111;
+  top: 45%;
+  left: 53%;
+  transform: translate(-50%, -50%);
+  border-radius: 25px;
+}
+
+#contactinfo {
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+#contactinfo1 {
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+#DiscordLink {
+  font-size: 40px;
+  width: 47.5%;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 25px;
+  background-color: white;
+}
+
+#DiscordText {
+  color: black;
+  font-size: 40px;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 25px;
+  background-color: white;
+}
+
+#CopyButton1 {
+  padding: 20px;
+  font-size: 40px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+#MailLink {
+  font-size: 40px;
+  width: 47.5%;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 25px;
+  background-color: white;
+}
+
+#MailText {
+  color: black;
+  font-size: 40px;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 25px;
+  background-color: white;
+}
+
+#CopyButton2 {
+  padding: 20px;
+  font-size: 40px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+#titlecontact {
+  font-size: 70px;
+  color: white;
+  border-bottom: 5px solid white;
+  text-align: center;
 }

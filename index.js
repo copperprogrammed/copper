@@ -6,7 +6,7 @@ function home() {
     document.getElementById("voorbeeld4").style.display = "none";
     document.getElementById("voorbeeld5").style.display = "none";
     document.getElementById("voorbeeld6").style.display = "none";
-    document.getElementById("options").style.display = "none";
+    document.getElementById("contactinformation").style.display = "none";
 }
 
 function shop() {
@@ -17,7 +17,18 @@ function shop() {
     document.getElementById("voorbeeld4").style.display = "block";
     document.getElementById("voorbeeld5").style.display = "block";
     document.getElementById("voorbeeld6").style.display = "block";
-    document.getElementById("options").style.display = "block";
+    document.getElementById("contactinformation").style.display = "none";
+}
+
+function contact() {
+    document.getElementById("Logo").style.display = "none";
+    document.getElementById("voorbeeld1").style.display = "none";
+    document.getElementById("voorbeeld2").style.display = "none";
+    document.getElementById("voorbeeld3").style.display = "none";
+    document.getElementById("voorbeeld4").style.display = "none";
+    document.getElementById("voorbeeld5").style.display = "none";
+    document.getElementById("voorbeeld6").style.display = "none";
+    document.getElementById("contactinformation").style.display = "block";
 }
 
 function show() {
@@ -28,7 +39,7 @@ function show() {
     document.getElementById("voorbeeld4").style.display = "block";
     document.getElementById("voorbeeld5").style.display = "block";
     document.getElementById("voorbeeld6").style.display = "block";
-    document.getElementById("options").style.display = "block";
+    document.getElementById("contactinformation").style.display = "none";
 }
 
 function image() {
@@ -39,7 +50,7 @@ function image() {
     document.getElementById("voorbeeld4").style.display = "none";
     document.getElementById("voorbeeld5").style.display = "none";
     document.getElementById("voorbeeld6").style.display = "block";
-    document.getElementById("options").style.display = "block";
+    document.getElementById("contactinformation").style.display = "none";
 }
 
 function info() {
@@ -50,7 +61,7 @@ function info() {
     document.getElementById("voorbeeld4").style.display = "none";
     document.getElementById("voorbeeld5").style.display = "none";
     document.getElementById("voorbeeld6").style.display = "none";
-    document.getElementById("options").style.display = "block";
+    document.getElementById("contactinformation").style.display = "none";
 }
 
 function music() {
@@ -61,7 +72,7 @@ function music() {
     document.getElementById("voorbeeld4").style.display = "none";
     document.getElementById("voorbeeld5").style.display = "none";
     document.getElementById("voorbeeld6").style.display = "none";
-    document.getElementById("options").style.display = "block";
+    document.getElementById("contactinformation").style.display = "none";
 }
 
 function video() {
@@ -72,7 +83,7 @@ function video() {
     document.getElementById("voorbeeld4").style.display = "block";
     document.getElementById("voorbeeld5").style.display = "none";
     document.getElementById("voorbeeld6").style.display = "none";
-    document.getElementById("options").style.display = "block";
+    document.getElementById("contactinformation").style.display = "none";
 }
 
 function link() {
@@ -83,5 +94,35 @@ function link() {
     document.getElementById("voorbeeld4").style.display = "none";
     document.getElementById("voorbeeld5").style.display = "block";
     document.getElementById("voorbeeld6").style.display = "none";
-    document.getElementById("options").style.display = "block";
+    document.getElementById("contactinformation").style.display = "none";
 }
+
+function copy() {
+    // Get the text field
+    var copyText = document.getElementById("DiscordLink");
+  
+    // Select the text field
+    copyText.select();
+    copyText.setSelectionRange(0, 99999); // For mobile devices
+  
+     // Copy the text inside the text field
+    navigator.clipboard.writeText(copyText.value);
+  
+    // Alert the copied text
+    alert("Copied the text: " + copyText.value);
+  }
+
+  function copy1() {
+    // Get the text field
+    var copyText = document.getElementById("MailLink");
+  
+    // Select the text field
+    copyText.select();
+    copyText.setSelectionRange(0, 99999); // For mobile devices
+  
+     // Copy the text inside the text field
+    navigator.clipboard.writeText(copyText.value);
+  
+    // Alert the copied text
+    alert("Copied the text: " + copyText.value);
+  }
